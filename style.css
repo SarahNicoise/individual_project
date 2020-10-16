@@ -1,0 +1,119 @@
+*{background-color: white;}
+
+body{
+    margin:5px;
+}
+
+.container{
+     display:flex;
+     flex-direction:row; 
+     
+}
+
+.wrapbar{
+    height:fit-content;
+    margin:15 15px;
+    display:flex;
+    align-items: center;
+}
+.navbar{
+    /* flex-grow: 1; */
+    height: fit-content;
+    margin:0 20px;
+    display:flex;
+    justify-content: center;
+    content: center;
+    flex-grow: 1;
+}
+
+*{
+    color: black;
+    font-family: calibri;
+    font-size: 17px;
+  }
+
+
+h1{
+    color:black;
+    font-style:calibri;
+    font-size: 30px;
+    text-align: center;
+  }
+
+p{
+    color:black;
+    font-style:calibri;
+    font-size:17px;
+    text-align: center;
+  }
+
+  .content {
+    clear: both;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.logo {
+    background: none;
+    height: 45px;
+    width: 45px;
+    float: left;
+}
+
+.others {
+    background: none;
+    height: 30px;
+    width: 1px;
+    float: right;
+}
+
+nav.navbar1 {
+    background: black;
+}
+
+.navbar1 a {
+    color: white;
+    background: black;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navbar1 a:hover {
+    color: black;
+    background: white;
+}
+
+.item {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    order:3; 
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box14, .box15 {
+    background:none;
+    height: 33%;
+    width: 33%;
+}
+
+.content1 {
+    border: solid black;
+    text-align: left;
+    width: 350;
+    padding: 150px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.p1{
+    color:black;
+    font-style:bold calibri;
+    font-size:17px;
+    text-align: center;
+  }
